@@ -19,7 +19,7 @@
 		<jsf.version>2.2.8</jsf.version>
 		<primefaces.version>7.0</primefaces.version>
 		<javax.version>1.0</javax.version>
-		<mysql.version>5.1.6</mysql.version>
+		<mysql.version>8.0.16</mysql.version>
 	</properties>
 
 	<dependencies>
