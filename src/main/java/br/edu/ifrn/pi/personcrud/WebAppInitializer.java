@@ -31,6 +31,7 @@ public class WebAppInitializer implements WebApplicationInitializer {
 		AnnotationConfigWebApplicationContext context = new AnnotationConfigWebApplicationContext();
 		sc.addListener(new ContextLoaderListener(context));
 		context.scan(ApplicationProperties.PACKAGE_TO_SCAN);
+		System.out.println("Opa");
 	}
 
 	@Bean
